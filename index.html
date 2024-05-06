@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Інтерполяція та апроксимація</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.4.0/math.min.js"></script>
+</head>
+<body>
+    <form id="dataForm">
+        <label for="x">Введіть місяці (березень - липень):</label><br>
+        <input type="text" id="x" name="x"><br>
+        <label for="y">Введіть кількість дощів:</label><br>
+        <input type="text" id="y" name="y"><br>
+        <input type="button" value="Обчислити" onclick="calculate()">
+        <input type="button" value="Ввести дані задачі" onclick="enterData()">
+    </form>
+    <p id="result"></p>
+</body>
+</html>
